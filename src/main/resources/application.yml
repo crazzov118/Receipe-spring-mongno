@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      port: 0
+      host: localhost
+
+  jpa:
+    show-sql: true
+
+  sql:
+    init:
+      platform: h2
+
+logging:
+  level:
+    '[guru.springframework]': debug
